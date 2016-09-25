@@ -152,6 +152,9 @@ p {
 .sidebar-wrapper .interests-list li:last-child {
   margin-bottom: 0;
 }
+.cstm-abilities{
+    list-style: disc;
+}
 .main-wrapper {
   background: #fff;
   padding: 60px;
