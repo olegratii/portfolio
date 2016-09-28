@@ -1,28 +1,20 @@
 jQuery(document).ready(function($) {
-
-
-    /*======= Skillset *=======*/
     
-    
-    $('.level-bar-inner').css('width', '0');
-    
-    $(window).on('load', function() {
-
-        $('.level-bar-inner').each(function() {
-        
-            var itemWidth = $(this).data('level');
-            
-            $(this).animate({
-                width: itemWidth
-            }, 800);
-            
-        });
-        
-        
-        
-
-    });
-   
-    
+   $(".exp-player").click(function(){
+	   $(".player-wrapper").toggleClass("hide-block");
+	   $(".player-wrapper").toggleClass("show-block");
+   })
+   $(".coach-exp").click(function(){
+	   $(".coach-wrapper").toggleClass("hide-block");
+	   $(".coach-wrapper").toggleClass("show-block");
+   })
+    $(".edu-title").click(function(){
+	   $(".education").toggleClass("hide-block");
+	   $(".education").toggleClass("show-block");
+   })
+   $(".add-title").click(function(){
+	   $(".add-training").toggleClass("hide-block");
+	   $(".add-training").toggleClass("show-block");
+   })
 
 });
