@@ -259,6 +259,18 @@ p {
 .footer .fa-heart {
   color: #fb866a;
 }
+
+.hide-block{
+	display:none;
+}
+.show-block{
+	display:block;
+}
+.section-title{
+	cursor: pointer
+	}
+
+
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .sidebar-wrapper {
@@ -294,5 +306,7 @@ p {
     top: 1px;
   }
 }
+
+
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */
