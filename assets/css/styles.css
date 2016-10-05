@@ -272,6 +272,10 @@ p {
 .profile-photo{
 		border-radius: 100%;
 	}
+.asset-img{
+		width: 100%;
+    height: auto;
+	}
 
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
