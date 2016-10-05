@@ -269,7 +269,9 @@ p {
 .section-title{
 	cursor: pointer
 	}
-
+.profile-photo{
+		border-radius: 100%;
+	}
 
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
