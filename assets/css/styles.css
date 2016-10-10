@@ -269,13 +269,17 @@ p {
 .section-title{
 	cursor: pointer
 	}
+.pointer{
+	cursor: pointer
+	}
 .profile-photo{
-		border-radius: 100%;
-	}
+	border-radius: 100%;
+}
 .asset-img{
-		width: 100%;
+	width: 100%;
     height: auto;
-	}
+}
+
 
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
